@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="skvorets, resume, social media " >
+    <meta name="description" content="Спортсмен, художник, дизайнер и зожник">
+    <title>Skvorets</title>
+</head>
+<body>
+    <img src="img/Илья.jpg" alt="Илья Скворцов" width="200">
+
+    <h1>Илья Скворцов</h1>
+
+    <p><h2>Спортсмен, художник, дизайнер и зожник</h2></p>
+
+    <a href="https://t.me/skvorets_12" target="_blank">Канал-дневник</a>
+    |
+    <a href="https://t.me/skvorets1" target="_blank">Telegram</a>
+    |
+    <a href="https://vk.com/skvorets12" target="_blank">Вконтакте</a>
+
+    <hr>
+
+    <ol> 
+        <h3>Мои хобби</h3>
+
+        <li>
+        Спорт
+        <ul type="disc">
+            <li>Тренировки</li>
+            <li>Воркаут</li>
+            <li>Баскетбол</li>
+        </ul>
+        </li>
+        <li>Рисование</li>
+        <li>Дизайн</li>
+        <li>Чтение</li>
+    </ol>
+
+    <hr>
+
+<table>
+    <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Возраст</th>
+            <th>Деятельность</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Илья</td>
+            <td>15</td>
+            <td>Дизайн</td>
+        </tr>
+    </tbody>
+</table>
+
+<style>
+    .header 
+    {border-bottom:2px solid grey;}
+
+    .card {
+     background-color: #eee;
+     padding: 10px;
+     margin-bottom: 10px;;
+    }
+
+    .color {
+        color:red;
+    }
+</style>
+
+<header id="header" class="header">
+    <h2>Site</h2>
+</header>
+
+<nav id="navigation">
+    <ul>
+        <li> <a href="!">Item 1</a></li>
+        <li> <a href="!">Item 2</a></li>
+        <li> <a href="!">Item 3</a></li>
+    </ul>
+</nav>
+
+<hr>
+
+<section>
+  <article id="block1" class="card header">
+   <h3>Block1</h3>
+   <p>Lorem ipsum dolor sit amet <span class="color">consectetur adipisicing elit.</span> Totam, accusantium.</p>
+  </article>
+
+  <article id="block2" class="card header">
+   <h3>Block2</h3>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, accusantium.</p>
+  </article>
+</section>
+
+<hr>
+
+<footer id="footer">
+
+    <h4>Contact me</h4>
+    <ul>
+        <li>Telegram</li>
+        <li>Instagram</li>
+        <li>Youtube</li>
+    </ul>
+</footer>
+
+<ul id="app" class="color">
+    <h4>Trackers</h4>
+    <li>day1</li>
+    <li>day2</li>
+    <li>day3</li>
+    <li>day4</li>
+    <li>day5</li>
+    <li>day6</li>
+    <li>day7</li>
+</ul>
+
+<h1>Forms</h1>
+    
+    <form action="">
+
+        <div>
+         <label for="text">Текст</label>
+         <input type="text" id="text" value="Текст по умолчанию"
+         placeholder="Введите текст" readonly>
+        </div>
+
+        <div>
+         <label for="email">Email</label>
+         <input type="email" id="email" placeholder="Введите email">
+        </div>
+
+        <div>
+         <label for="password">Пароль</label>
+         <input type="password" id="password">
+        </div>
+
+        <div>
+         <label for="number">Номер</label>
+         <input type="number" id="number" min="1">
+        </div>
+
+        <div>
+         <label for="range">Range</label>
+         <input type="range" id="range" min="0" max="10" step="1">
+        </div>
+        
+        <div>
+         <label for="color">Цвет</label>
+         <input type="color" id="color">
+        </div>
+
+        <div>
+            <label for="messenge">Сообщение</label>
+            <br>
+            <textarea id="messenge" cols="25" rows="5"></textarea>
+        </div>
+
+        <div>
+          <label for="sex">Ваш пол</label> 
+            <select name="sex" id="sex">
+             <option value="male">Мужской</option>
+             <option value="female" selected>Женский</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Ваш возраст</label>
+             <br><input type="radio" name="work"> до 10
+             <br><input type="radio" name="work"> 10–14
+             <br><input type="radio" name="work"> 15–18
+             <br><input type="radio" name="work"> 18+
+        <div>
+
+        <br> 
+
+        <div>
+            <label>Ваша любимая еда</label>
+             <br><input type="checkbox" name="food"> Каша
+             <br><input type="checkbox" name="food"> Суп
+             <br><input type="checkbox" name="food"> Мясо
+             <br><input type="checkbox" name="food"> Салат
+        <div>
+
+        <!-- <input type="submit" value="Отправить форму"> -->
+
+        <button type="submit">Отправить форму</button>
+
+    </form>
+    
+</body>
+</html>
